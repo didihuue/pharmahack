@@ -15,6 +15,5 @@
 
 ### Submission Instructions  
 
-- Submit your **notebook** and **slides** in a **zip file** via email to:  
-  📩 **[contact@pharmahacks.com](mailto:contact@pharmahacks.com)**  
-- **Example submission format:** GROUPNAME\_PharmaHacks2025.zip
+- For submission, put your notebook, testing dataframe with your solutions inside a ”Solutions” col-
+umn, and slides on a GitHub repository and post it on [Devpost](https://pharmahacks-2025.devpost.com/?ref_feature=challenge&ref_medium=discover&_gl=1*oayv4s*_gcl_au*MTE2NjM0NTYwLjE3MzcyMTQ1NjI.*_ga*MTc5OTkxOTUxNS4xNzM3MjE0NTYy*_ga_0YHJK3Y10M*MTc0MTk5MjU5Ni4yOS4xLjE3NDE5OTUxNjAuMC4wLjA)
