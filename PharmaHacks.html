@@ -1,16 +1,172 @@
 <!DOCTYPE html>
 <!--tells the browser that this is a html file. It is declaring-->
-<head>
-    <!--contains information about the website+ where 
-    you load css and javascript files-->
-    <meta charset="utf-8">
-    <!--need the unicode to translate letters to numbers and symbols 
-    into bytes. like dictionary for human words to computer language-->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!--important for responsive website. so it can be displayed 
-    properly on all devices-->
-    <!--it says that the width is the same as the device width and scale
-    is to set the zoom of the website. to zoom in and out-->
-    <title> Bio</title>
-    <!--sets title of the page-->
-</head>
+<html>
+<!--also declares that it is html but it makes sure that the content inside 
+inherit necessary html characteristics-->
+    <head>
+        <!--contains information about the website+ where 
+        you load css and javascript files-->
+        <meta charset="utf-8">
+        <!--need the unicode to translate letters to numbers and symbols 
+        into bytes. like dictionary for human words to computer language-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--important for responsive website. so it can be displayed 
+        properly on all devices-->
+        <!--it says that the width is the same as the device width and scale
+        is to set the zoom of the website. to zoom in and out-->
+        <title> Bio</title>
+        <!--sets title of the page-->
+    </head>
+    <body style="background-color: lavenderblush;">
+        <!--main content of the page-->
+        <header style="background-color:cornflowerblue;">
+            <h1 style="color:darkslategray">My First Website</h1>
+            <a href="">Home</a>
+            <a href="">About Us</a>
+            <a href="">Projects</a>
+            <a href="">Contact Us</a>
+        </header>
+        <main>
+            <!--for main content-->
+            <h1>My First Website</h1>
+            <h2>an html playground</h2>
+            <h3>an html playground</h3>
+            <h4>an html playground</h4>
+            <h5>an html playground</h5>
+            <h6>an html playground</h6>
+            <!--css internal where you write in style, what you want to modify-->
+            <!--and its properties-->
+            
+            <!--max is 6.kinda like size changer-->
+            <p>
+                "Sed ut perspiciatis unde omnis iste natus error sit voluptatem 
+                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa 
+                quae ab illo inventore veritatis et quasi architecto beatae vitae
+                dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas 
+                sit aspernatur aut odit aut fugit, sed quia consequuntur magni 
+                dolores eos qui ratione voluptatem sequi nesciunt. Neque porro 
+                quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,
+                adipisci velit, sed quia non numquam eius modi tempora incidunt 
+                "
+            </p>
+            <p>
+                "Sed ut perspiciatis unde omnis <br><br>
+                <!--a void element, a line break since html doesn't do it if you don't tell it to-->
+                <b>iste natus error sit voluptatem </b><br>
+                <!--bold-->
+                <i>accusantium doloremque laudantium,</i><br>
+                <!--italic-->
+                <u>totam rem aperiam, eaque ipsa</u><br>
+                <!--underline-->
+                <em>quae ab illo inventore veritatis et quasi architecto beatae vitae</em><br>
+                <!--emphasize-->
+                <strong>dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas</strong><br>
+                <!--strong tag=bold--> 
+                <hr>
+                <!--horizontal rule= creates a horizontal line-->
+                <a href="https://www.google.ca/?client=safari&channel=ipad_bm" target="blank"> sit aspernatur aut odit aut fugit, sed quia consequuntur magni </a>
+                <!--anchor=link tag, to go to different website-->
+                <!--you need to add attributes to anchor-->
+                <!--href=hyperlink reference, inside you put the link of the website you want to go to-->
+                <!--another attribute is target= makes the anchor open in the same page or a different tab-->
+                dolores eos qui ratione voluptatem sequi nesciunt. Neque porro 
+                quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,
+                adipisci velit, sed quia non numquam eius modi tempora incidunt 
+                ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad
+                minima veniam, quis nostrum exercitationem ullam corporis suscip
+                it laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis 
+                autem vel eum iure reprehenderit qui in ea voluptate velit esse 
+                quam nihil molestiae consequatur, vel illum qui dolorem eum fugi
+                at quo voluptas nulla pariatur?"
+            </p>
+            <!--p tags = paragraphs. separates text into paragraphs-->
+
+            this is my very first website and I am <b>extremely excited!</b><br>
+            <img src="/Users/laurawang/Image.jpg" border="5" style="border-color: brown;">
+            <!--image tag, it needs URL-->
+            <!--also needs attribute, src for source of image, border to add border-->
+            
+            <ul>
+                <li>apples</li>
+                    <ul>
+                        <li>granny smith</li>
+                        <li>gala</li>
+                    </ul>
+                <li>oranges</li>
+                <li>pineapples</li>
+                <li>mangoes</li>
+                <li>dragon fruit</li>
+                <!--li=list item-->
+            </ul>
+            <!--bulleted list=unordered list-->
+            <!--ul=unordered list, ol= ordered list-->
+
+            <table border="1" cellpadding="10" cellspacing="0">
+                <!--cellpadding= amount of extra space in the each cells to border-->
+                <!--cellspacing=''''between each cells-->
+                <tr>
+                    <th></th>
+                    <!--table rows-->
+                    <th>Month</th>
+                    <!--table header-->
+                    <th>Rent</th>
+                    <th colspan="2">Utilities</th>
+                    <!--make the column span wider-->
+                    <th>Groceries</th>
+                    <th>Eating Out</th>
+                    <th>Entertainement</th>
+                </tr>
+                <tr>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th>electricity</th>
+                    <th>water</th>
+                    <th>Provigo</th>
+                    <th></th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td rowspan="3">Summer</td>
+                    <td>June</td>
+                    <!--table data-->
+                    <td>$150 000</td>
+                    <td>$100</td>
+                    <td>$50</td>
+                    <td>$350</td>
+                    <td>$100</td>
+                    <td>$70</td>
+                </tr>
+                <tr>
+                    <td>July</td>
+                    <!--table data-->
+                    <td>$150 000</td>
+                    <td>$100</td>
+                    <td>$50</td>
+                    <td>$350</td>
+                    <td>$100</td>
+                    <td>$70</td>
+                </tr>
+                <tr>
+                    <td>August</td>
+                    <!--table data-->
+                    <td>$150 000</td>
+                    <td>$100</td>
+                    <td>$50</td>
+                    <td>$350</td>
+                    <td>$100</td>
+                    <td>$70</td>
+                </tr>
+            </table>
+        </main>
+        <footer>
+            <hr>
+            <!--hr for horizontal rule-->
+            author: Laura
+            &copy; copyright reserved<br>
+            <a href="haha@gmail.com">haha@gmail.com</a>
+        </footer>
+    </body>
+</html>
+<!--notes on CSS-->
+<!--incline,internal,external-->
